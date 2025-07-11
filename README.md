@@ -16,23 +16,24 @@ To build a **binary classification model** that predicts:
 
 ## 🧩 Columns Description
 
-| Column Name       | Description                                      |
-|-------------------|--------------------------------------------------|
-| `age`             | Age of the individual                           |
-| `workclass`       | Employment category (e.g., Private, Self-emp)    |
-| `fnlwgt`          | Census-assigned weight                          |
-| `education`       | Educational level (e.g., Bachelors, Masters)     |
-| `education-num`   | Numerical form of education level                |
-| `marital-status`  | Marital status (e.g., Married, Never-married)    |
-| `occupation`      | Job category (e.g., Tech-support, Sales)         |
-| `relationship`    | Role in family (e.g., Husband, Own-child)        |
-| `race`            | Race category                                    |
-| `sex`             | Gender                                           |
-| `capital-gain`    | Investment profits                               |
-| `capital-loss`    | Investment losses                                |
-| `hours-per-week`  | Weekly work hours                                |
-| `native-country`  | Country of origin                                |
-| `income`          | **Target variable** (`<=50K` or `>50K`)          |
+| Column Name       | Example Value   | Description                                                                             |
+| ----------------- | --------------- | --------------------------------------------------------------------------------------- |
+| `age`             | `39`            | Age of the individual                                                                   |
+| `workclass`       | `State-gov`     | Type of employer (e.g., Private, Self-employed, Government)                             |
+| `fnlwgt`          | `77516`         | Final weight – represents the number of people the census believes the entry represents |
+| `education`       | `Bachelors`     | Highest level of education attained                                                     |
+| `education-num`   | `13`            | Numerical representation of education level                                             |
+| `marital-status`  | `Never-married` | Marital status                                                                          |
+| `occupation`      | `Adm-clerical`  | Type of occupation/job                                                                  |
+| `relationship`    | `Not-in-family` | Relationship to the head of the household                                               |
+| `race`            | `White`         | Race of the individual                                                                  |
+| `sex`             | `Male`          | Gender of the individual                                                                |
+| `capital-gain`    | `2174`          | Capital gain from investment sources                                                    |
+| `capital-loss`    | `0`             | Capital loss, if any                                                                    |
+| `hours-per-week`  | `40`            | Average working hours per week                                                          |
+| `native-country`  | `United-States` | Country of origin or citizenship                                                        |
+| `income` (target) | `<=50K`         | **Target variable** – Does the person make more than \$50K per year?                    |
+
 
 ---
 
